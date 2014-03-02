@@ -1,0 +1,13 @@
+/*
+	Theme Name:   Robido Blog
+	Theme URI:    http://robido.com/hex-child/
+	Description:  Robido blog theme. A child theme created from Automattic's hex theme.
+	Author:       Jeff Hays
+	Author URI:   http://robido.com
+	Template:     hex
+	Version:      1.0.0
+	Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+	Text Domain:  hex
+*/
+
+@import url("../hex/style.css");
