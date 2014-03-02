@@ -10,4 +10,25 @@
 	Text Domain:  hex
 */
 
-@import url("../hex/style.css");
+@import url('../hex/style.css');
+
+/* Content */
+	.entry-title a {
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+	}
+	.entry-title a:hover {
+		color: #a54239;
+	}
+	.taxonomy-description {
+		margin-top: 0;
+	}
+	.page-header {
+		margin-top: -29px;
+	}
+	.hentry {
+		margin-top: -29px;
+	}
+/* Content */
