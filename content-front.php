@@ -20,7 +20,7 @@
 				// print_r($category);
 				// echo '</pre>';
 	?>
-			<li><a title="<?php echo $category->description; ?>" href="/category/<?php echo $category->slug; ?>"><?php echo $category->name; ?></a></li>
+			<li><a title="<?php echo $category->description; ?>" href="<?php bloginfo('url'); ?>/category/<?php echo $category->slug; ?>"><?php echo $category->name; ?></a></li>
 	<?php
 			}
 		}
