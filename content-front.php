@@ -8,7 +8,10 @@
 ?>
 
 <article class="hentry">
-	<?php the_content(2); ?>
+	<?php
+		$homecontent = get_post(2);
+		echo apply_filters('the_content', $homecontent->post_content);
+	?>
 </article>
 
 <article class="page-header">
