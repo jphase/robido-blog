@@ -7,6 +7,10 @@
 	$categories = get_categories();
 ?>
 
+<article class="hentry">
+	<?php the_content(2); ?>
+</article>
+
 <article class="page-header">
 	<header>
 		<h4>Browse from the list of categories below:</h4>
